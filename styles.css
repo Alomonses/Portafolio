@@ -128,7 +128,9 @@ nav{
     color: var(--white);
     font-weight: 600;
 }
-#about-me{
+
+/* About me */
+#about-me #whatIdo{
     padding: 3rem 0;
 }
 .aboutImage{
@@ -144,4 +146,25 @@ nav{
 }
 .about-text h6{
     margin: 2rem 0;
+}
+/* SERVICES */
+.whatIdo{
+    padding: 5rem 0;
+    background-color: var(--main);
+    width: 100%;
+}
+.whatIdo-box{
+    background-color: var(--sub-main);
+    padding: 2rem 3rem;
+    color:var(--gray);
+    font-size:.7rem ;
+    box-shadow: inset 3px 3px 20px 1px #002648;
+}
+.whatIdo-box i{
+    margin: 2rem;
+    font-size: 2.5rem;
+    color: var(--white);
+}
+.whatIdo-box h3{
+    color: var(--yellow);
 }
