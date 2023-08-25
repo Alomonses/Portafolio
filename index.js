@@ -13,3 +13,7 @@ var typed = new Typed('#typed', {
     atrr:null,
     contentTypeL:"html",
   });
+
+  //MIXITUP
+  var container =$(".mixitup")
+  mixitup(container)

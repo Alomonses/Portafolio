@@ -35,13 +35,13 @@
                       <a class="nav-link" href="#about-me">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">SERVICES</a>
+                      <a class="nav-link" href="#what-i-do">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">PORTAFOLIO</a>
+                      <a class="nav-link" href="#works">PORTAFOLIO</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">CONTACT ME</a>
+                      <a class="nav-link" href="#contact-me">CONTACT ME</a>
                     </li>
                   </ul>
                 </div>
@@ -103,7 +103,7 @@
                 <div class="row text-center justify-content-center ">
                   <div class="col-12 col-sm-6 col-lg-3 mt-lg-0 m-3">
                     <div class="whatIdo-box rounded">
-                        <i class="fa-solid fa-laptop-code"></i>
+                        <i class="fa-solid fa-laptop"></i>
                         <h3>WEB DEVELOPMENT</h3>
                         <p>Description of my experinece in here</p>
                     </div>
@@ -133,83 +133,91 @@
               </div>
         </div>
   
-</section>
+    </section>
     <!-- SERVICES -->
     <!-- WORKS -->
-        <section class="fdb-block team-6">
-  <div class="container">
-    <div class="row text-center justify-content-center">
-      <div class="col-8">
-        <h1>Team</h1>
-      </div>
-    </div>
+    <section id="works"class="flex-colo">
+            <h2>MY WORKS!</h2>
+            <hr/>
 
-    <div class="row text-center mt-5">
-      <div class="col-4">
-        <img alt="image" class="img-fluid rounded" src="./imgs/people/9.jpg">
-        <h3><strong>John Smith</strong></h3>
-        <p>Position</p>
-        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-      </div>
+        <div class="workbutton">
+        <button type="button" data-filter="all">All</button>
+        <button type="button" data-filter=".category-a">All</button>
+        <button type="button" data-filter=".category-b">All</button>
+        
+        </div>
+    <div class="container">
+    <div class="row mt-0 mt-md-3 justify-content-center gaps mixitup">
+      
+        <div class="mix .category-a col-sm-5 col-lg-3 col-11 work-box p-0">
+            <img alt="image" class="img-fluid rounded" src="./imgs/iniciales.png">
+            <div class="work-overlay d-flex justify-content-center align-items-center flex-column"> 
+                <h4>Hello</h4>
+                <button class="rounded mt-4">READ MORE</button>
+            </div>
+          </div>
 
-      <div class="col-4">
-        <img alt="image" class="img-fluid rounded" src="./imgs/people/1.jpg">
-        <h3><strong>John Smith</strong></h3>
-        <p>Position</p>
-        <p>One morning, when Gregor Samsa woke from troubled dreams.</p>
-      </div>
 
-      <div class="col-4">
-        <img alt="image" class="img-fluid rounded" src="./imgs/people/3.jpg">
-        <h3><strong>John Smith</strong></h3>
-        <p>Position</p>
-        <p>A small river named Duden flows by their place and supplies it.</p>
-      </div>
+          <div class="mix .category-b col-sm-5 col-lg-3 col-11 work-box p-0">
+            <img alt="image" class="img-fluid rounded" src="./imgs/people/9.jpg">
+            <div class="work-overlay d-flex justify-content-center align-items-center flex-column">
+                <h4>Hello</h4>
+                <button class="rounded mt-4">READ MORE</button>
+            </div>
+          </div>
+
+          <div class="mix col-sm-5 col-lg-3 col-11 work-box p-0">
+            <img alt="image" class="img-fluid rounded" src="./imgs/people/9.jpg">
+            <div class="work-overlay d-flex justify-content-center align-items-center flex-column">
+                <h4>Hello</h4>
+                <button class="rounded mt-4">READ MORE</button>
+            </div>
+          </div>
     </div>
   </div>
         </section>
     <!-- WORKS -->
     <!-- CONCTACT ME -->
-    <section class="fdb-block pt-0">
-  <div class="container-fluid p-0 pb-3">
+    <section id="contact-me"class="flex-colo">
+        <h2>CONTACT ME!</h2>
+        <hr/>
+    <div class="container">
     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656"
       width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
   </div>
   <div class="container">
-    <div class="row text-center justify-content-center pt-5">
-      <div class="col-12 col-md-7">
-        <h1>Contact Us</h1>
-      </div>
+    <div class="contact">
+        <div class="row ">
+            <div class="col-12 col-lg">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+      
+                <div class="row mt-4">
+                  <div class="col">
+                    <input type="email" class="form-control" placeholder="Subject">
+                  </div>
+                </div>
+      
+                <div class="row mt-4">
+                  <div class="col">
+                    <textarea class="form-control" name="message" rows="3" placeholder="How can we help?"></textarea>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col text-center">
+                    <button type="submit" class="py-3">SUBMIT</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
     </div>
+    
 
-    <div class="row justify-content-center pt-4">
-      <div class="col-12 col-md-7">
-        <form>
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Email">
-            </div>
-          </div>
-
-          <div class="row mt-4">
-            <div class="col">
-              <input type="email" class="form-control" placeholder="Subject">
-            </div>
-          </div>
-
-          <div class="row mt-4">
-            <div class="col">
-              <textarea class="form-control" name="message" rows="3" placeholder="How can we help?"></textarea>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col text-center">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
     <div class="row-100"></div>
   </div>
   <div class="bg-dark">
@@ -252,23 +260,21 @@
 </section>
     <!-- CONCTACT ME -->
     <!-- FOOTER -->
-    <footer class="fdb-block footer-small">
+    <footer class="rounded">
   <div class="container">
     <div class="row text-center align-items-center">
-      <div class="col-12 col-sm-6 col-md-4 text-sm-left">
+      <div class="col-12 col-md-3 text-md-left text-center">
         <img alt="image" src="./imgs/logo.png" height="40">
       </div>
-
-      <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0 text-center text-sm-right text-md-center">
-        © 2013-2018 Froala
+ 
+      <div class="col-12 col-md-4 text-center my-md-0 my-3">
+            © 2023 Alondra Sanchez
       </div>
 
-      <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
-        <a href="https://www.froala.com" class="mx-2"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" class="mx-2"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" class="mx-2"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" class="mx-2"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" class="mx-2"><i class="fab fa-google" aria-hidden="true"></i></a>
+      <div class="col-12 col-md-5 text-center text-md-right">
+        <a href="https://www.froala.com" class="mx-3"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" class="mx-3"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" class="mx-3"><i class="fab fa-instagram" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
@@ -276,7 +282,9 @@
 
     <!-- FOOTER -->
     
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12 "></script>
     <script src="index.js"></script>
 </body>
 </html>
